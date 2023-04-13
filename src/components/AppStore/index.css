@@ -1,0 +1,85 @@
+/* Write your CSS here */
+.container {
+  background-image: linear-gradient(to top, #ace0f9, #fff1eb);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 85%;
+  max-width: 1100px;
+}
+
+.store-heading {
+  color: #1e293b;
+  font-family: 'Bree serif';
+  font-size: 50px;
+  margin-top: 64px;
+  margin-bottom: 48px;
+}
+@media screen and (min-width: 768px) {
+  .store-heading {
+    font-size: 48px;
+    margin-top: 96px;
+  }
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+  border: 1px solid #7b8794;
+  border-radius: 4px;
+  background-color: transparent;
+  height: 40px;
+  width: 100%;
+  max-width: 250px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+@media screen and (min-width: 786px) {
+  .search-bar {
+    max-width: 480px;
+  }
+}
+
+.app-search {
+  background-color: transparent;
+  border: none;
+  font-family: 'Roboto';
+  font-size: 16px;
+  outline: none;
+  font-weight: 500;
+  flex-grow: 1;
+}
+
+.search-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.tab-container {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  padding-left: 0px;
+  margin-top: 38px;
+}
+
+@media scree and (min-width: 768px) {
+  .tab-container {
+    margin-top: 48px;
+  }
+}
+
+.app-list-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  width: 100%;
+}
